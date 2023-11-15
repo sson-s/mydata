@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="visual">
+        <div class="container">
+          <div class="swiper vbanner">
+              <div class="swiper-pagination"></div>
+              <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="images/banner/banner_1.jpg"
+                  alt="이미지1">
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="images/banner/banner_2.jpg"
+                  alt="이미지2">
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="images/banner/banner_3.jpg"
+                  width="470" alt="이미지3">
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+
+      </div>
+      <main>
+    
+          <!-- //////// 슬라이드//////////// -->
+          <div class="wrap2">
+
+    
+            <div class="box2">
+    
+              <div class="slide-box">
+                <div class="control">
+                    <div class="swiper all">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="one-01">
+                            <!-- 말풍선 -->
+                            <span class="bubble">
+                              진료 검사결과가<br>잘 기억이 안나네..
+                            </span>
+                            <!-- 기본 -->
+                            <p class="list">
+                              <!-- <img src="images/main/exper_circle.png" alt=""> -->
+                              <!-- <img src="images/main/exper_circle.png" alt="" style="background: url('../mydata/images/experience/exper01_on.jpg') no-repeat 50% 50% / cover;"> -->
+                              <img
+                                src="images/main/exper_circle.png"
+                                alt=""
+                                style="background: url('images/experience/exper01_on.jpg') no-repeat 50% 50% / cover;">
+                            </p>
+                            <span>나아퍼님</span>
+                            <!-- on -->
+                            <p class="list active">
+                              <img
+                                src="images/main/exper_circle.png"
+                                alt="01_on"
+                                style="background: url('images/experience/exper01_on.jpg') no-repeat 50% 50% / cover;">
+                            </p>
+                            <a href="#"
+                              class="ex-more">더보기</a>
+                            <!-- 멘트 -->
+                            <p class="ment"><b>정기적으로 병원진료를
+                                받고 있는</b><br>나아퍼님</p>
+        
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide">Slide 3
+                        </div>
+                        <div class="swiper-slide">Slide 4
+                        </div>
+                        <div class="swiper-slide">Slide 5
+                        </div>
+                        <div class="swiper-slide">Slide 6
+                        </div>
+                        <div class="swiper-slide">Slide 7
+                        </div>
+                        <div class="swiper-slide">Slide 8
+                        </div>
+                        <div class="swiper-slide">Slide 9
+                        </div>
+                      </div>
+                      <!-- <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div> -->
+                      
+                      <div class="swiper-pagination"></div>
+                    </div>
+                  <div class="p-pagination"></div>
+                  <div class="p-next"></div>
+                  <div class="p-prev"></div>
+    
+
+                </div>
+    
+              </div>
+            </div>
+    
+        </div>
+    
+    
+      </main>
+
+    <script>
+     
+
+      var swiper = new Swiper(".vbanner", {
+      autoplay: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: ".p-next",
+        prevEl: ".p-prev",
+      },
+    });
+      var swiper = new Swiper(".all", {
+      autoplay: true,
+      loop: true,
+      pagination: {
+        el: '.p-pagination',
+        type: 'fraction',
+        formatFractionCurrent: function (number) {
+            return '0' + number;
+        }
+      },
+      navigation: {
+        nextEl: ".p-next",
+        prevEl: ".p-prev",
+      },
+    });
+    </script>
+</body>
+
+</html>

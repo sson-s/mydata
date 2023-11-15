@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mydata</title>
+  
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <div class="header-bg"></div>
+      <div class="header-bg2"></div>
+      <h1 class="logo">
+        <a href="#">
+          <img src="images/comn/logo.png" alt="logo">
+        </a>
+      </h1>
+      <nav class="nav">
+        <!-- <div class="sub-bg"></div> -->
+        <ul class="menu">
+          <li><a href="#">이용안내</a>
+            <ul class="submenu">
+              <li><a href="#">서비스 소개</a></li>
+              <li><a href="#">마이데이터 소개</a></li>
+              <li><a href="#">사업안내</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">통합지원 서비스</a>
+            <ul class="submenu">
+              <li><a href="#">마이데이터 가이드북</a></li>
+              <li><a href="#">전문가 상시자문</a></li>
+              <li><a href="#">API 소재정보</a></li>
+              <li><a href="#">지원사업 안내</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">마이데이터 서비스</a>
+            <ul class="submenu">
+              <li><a href="#">서비스 맵</a></li>
+              <li><a href="#">서비스 추천</a></li>
+              <li><a href="#">서비스 체험</a></li>
+              <li><a href="#">서비스 체험후기</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">참여광장</a>
+            <ul class="submenu">
+              <li><a href="#">마이데이터 MBTI</a></li>
+              <li><a href="#">마이데이터 소식</a></li>
+              <li><a href="#">설문참여</a></li>
+              <li><a href="#">마이데이터 컨퍼런스</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="menu-all-icon"></div>
+
+      </nav>
+    </div>
+    
+
+    <div class="visual">
+      <div class="container">
+        <div class="swiper banner1">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/banner/banner_1.jpg" alt="이미지1">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/banner/banner_2.jpg" alt="이미지2">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/banner/banner_3.jpg" width="470" alt="이미지3">
+            </div>
+          </div> 
+        </div>
+
+        <div class="r-wrap">
+          <div class="search">
+            <form action="#">
+                <div>
+                  <label for="search">search</label>
+                  <input type="text" placeholder="검색어를 입력하세요" required autofocus minlength="2" maxlength="30" id="search" name="search">
+                  <button onclick="location.href='index.html'"></button>
+                  <div class="search-text">
+                    <ul>
+                      <li><a href="#">#데이터</a></li>
+                      <li><a href="#">#API소재 정보</a></li>
+                      <li><a href="#">#마이데이터</a></li>
+                      <li><a href="#">#활용제도</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </form>
+          </div>
+          
+          <div class="menu-box">
+            <ul>
+              <li><a href="#">
+                  <span class="tt">가이드북</span>
+                  <span class="text">마이데이터 활용법</span>
+                </a></li>
+  
+              <li><a href="#">
+                  <span class="tt">상시자문</span>
+                  <span class="text">전문가 답변을 제공</span>
+                </a></li>
+  
+              <li><a href="#">
+                  <span class="tt">API 소재정보</span>
+                  <span class="text">다양한 서비스 데이터</span>
+                </a></li>
+  
+              <li><a href="#">
+                  <span class="tt">서비스맵</span>
+                  <span class="text">쉽고 편한 마이데이터</span>
+                </a></li>
+  
+              <li><a href="#">
+                  <span class="tt">서비스 추천</span>
+                  <span class="text">나에게 맞는 서비스</span>
+                </a></li>
+  
+              <li><a href="#">
+                  <span class="tt">서비스 체험</span>
+                  <span class="text">미리 체험하는 서비스</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+      </div>
+
+      <div class="category">
+        <div class="c-wrap">
+          <p>서비스 카테고리</p>
+          <ul>
+            <li><a href="#">건강/의료</a></li>
+            <li><a href="#">금융</a></li>
+            <li><a href="#">소비/지출</a></li>
+            <li><a href="#">교통</a></li>
+            <li><a href="#">공공/복지</a></li>
+            <li><a href="#">유통</a></li>
+            <li><a href="#">학술</a></li>
+            <li><a href="#">교육/취업</a></li>
+            <li><a href="#">문화/관광</a></li>
+            <li><a href="#">종합관리</a></li>
+            <li><a href="#" class="all">전체메뉴</a></li>
+          </ul>
+        </div>
+      </div> 
+    </div>     
+    
+    <p class="top_btn">
+      <a href="#">top</a>
+    </p>
+
+  </header>
+
+  <main>
+    <div class="main_box">
+      <h2>통합지원 서비스</h2>
+      <div class="wrap1">
+        <div class="imgtext">
+          <p class="img"></p>
+          <div class="info-text">
+            <p>마이데이터
+              <br>
+              <b>전문가에게 자문을 </b>신청해보세요.
+            </p>
+              <span>사법화, 법·제도, 기술
+                <br>
+                분야별 전문가에게 물어보세요
+              </span>
+            <a href="#">전문가 자문 신청</a>
+          </div>
+        </div>
+        <div class="api">
+          <div class="text_more">
+            <h3>API 소재정보 리스트</h3>
+            <a href="#" class="more"></a>
+          </div>
+          <ul>
+            <li><a href="#">메디팡팡_투약정보</a>
+              <span>강릉아산병원을(를) 이용한 사람들의 투약정보(약물코드, 약물명, 1회복용량, 1일복용횟수, 처방일수, 단위, 투여시작일) 에 대한 API</span>
+            </li>
+
+            <li><a href="#">메디팡팡_투약정보</a>
+              <span>부산대병원을(를) 이용한 사람들의 투약정보(약물코드, 약물명, 1회복용량, 1일복용횟수, 처방일수, 단위, 투여시작일) 에 대한 API</span>
+            </li>
+
+            <li><a href="#">메디팡팡_투약정보</a>
+              <span>원주세브란스기독병원을(를) 이용한 사람들의 투약정보(약물코드, 약물명, 1회복용량, 1일복용횟수, 처방일수, 단위, 투여시작일) 에 대한 API</span>
+            </li>
+          </ul>
+        </div>
+        <div class="guide">
+          <p>Guide</p>
+          <span>가이드북</span>
+          <ul>
+            <li><a href="#">절차별 점검사항</a></li>
+            <li><a href="#">법·제도</a></li>
+            <li><a href="#">비지니스 모델</a></li>
+            <li><a href="#">요소기술</a></li>
+            <li><a href="#">주요 기능 구축</a></li>
+            <li><a href="#">공통 요구사항</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- //////// 슬라이드//////////// -->
+      <div class="wrap2">
+        <div class="box1">
+          <div class="container">
+            <h2>마이데이터 서비스 <b>체험하기</b></h2>
+            <p>마이데이터 서비스가 궁금하세요?<br>
+            여러 시뮬레이션을 통해 맞춤 서비스를 직접 체험해 보세요</p>     
+          </div>
+        </div>
+
+        <div class="box2">     
+          <div class="slide-box">
+            <div class="control">
+                <div class="p-prev2"></div>
+                <div class="p-pagination2"></div>
+                <div class="p-next2"></div>
+              </div>
+
+            <div class="banner2-bg"></div>
+
+            <div class="swiper banner2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper01_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>나아퍼님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      진료 검사결과가<br>잘 기억이 안나네..
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>정기적으로 병원진료를 받고 있는</b><br>나아퍼님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper02_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>이뚜벅님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      교통비를<br>더 절약하고 싶어!
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>대중교통과 공유 이동수단을 자주 이용하는</b><br>이뚜벅님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper06_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>김슬림님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      항상 실패하는 식단조절<br>성공하고 싶어!
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>다이어트에 관심이 많은 30대</b><br>김슬림님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper04_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>신혼부부</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      신혼부부를 위한<br>대출상품 없나?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>내집마련 대출이 필요한</b><br>신혼부부</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper05.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>나똑똑님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      차에 모든 것<br>편하게 관리하고 싶어!
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>스마트한 내 차 관리가 필요한</b><br>나똑똑님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper06.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>박열심님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      생소한 재테크<br>어떻게 시작해야 좋을까?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>재테크에 관심 많은 사회초년생</b><br>박열심님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper03_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>조절약님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      월급 또 다 썼어..<br>대체 다 어디에 쓴거지?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>똑똑한 지출로 소비를 절약하고 싶은</b><br>조절약님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper09.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>나사장님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      매출에 대한 세무관리<br>누가 도와줬으면..
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>매출관리가 어려운</b><br>나사장님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper05_on.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>유사장님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      매출자료<br>쉽게 볼 수 있는 방법없나?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>매출상승을 위한 분석자료가 필요한</b><br>유사장님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/exper11.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>최독립님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      나의 첫 독립!<br>무슨 서류가 필요하지?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>서울로 독립한 20대 자취러</b><br>최독립님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/20230103114713521123.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>이복지님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      내가 받을 수 있는<br>공공복지 혜택이 뭐지?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>나에게 맞는 복지 혜택을 알고 싶은</b><br>이복지님</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="won">
+                    <!-- 기본 -->
+                    <p class="list">
+                      <img src="images/main/exper_circle.png" alt="" style="background: url('images/experience/20221229165207632280.jpg') no-repeat 50% 50% / cover;">
+                    </p>
+                    <span>김마데님</span>
+                    <!-- on -->
+                    <p class="list active"></p>
+                    <a href="#" class="ex-more"></a>
+                    <!-- 말풍선 -->
+                    <span class="bubble">
+                      내가 만들어낸 데이터로<br>무엇을 할 수 있을까?
+                    </span>
+                    <!-- 멘트 -->
+                    <p class="ment"><b>평범한 대한민국 직장인</b><br>김마데님</p>
+                  </div>
+                </div>
+              </div>
+
+          
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="box3">
+          <div class="text">
+            <h3>서비스 추천리스트</h3>
+            <a href="#"></a>
+          </div>
+
+          <!-- Swiper -->
+          <div class="list">
+            <div class="swiper banner3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="클락패스" style="background: url('images/service/20221227135430739226.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt"><a href="#">클락패스</a></div>
+                  </div>
+                  <p class="info">유전자 정보와 건강 정보를 연계한 보험분석 서비스</p>
+                  <p class="tag-botton">
+                    <span>#건강검진 관리</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="퍼스터" style="background: url('images/service/20221204133452949779.jpg') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">퍼스터</a>
+                    </div>
+                  </div>
+                  <p class="info">응급실 진료 기록 및 일상생활 속의 건강기록을 모바일 앱(Private Cloud 기반)</p>
+                  <p class="tag-botton">
+                    <span>#혈당/혈압관리</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="페이코" style="background: url('images/service/20221204142327553923.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">페이코</a>
+                    </div>
+                  </div>
+                  <p class="info">계좌, 카드, 대출, 보험, 투자, 포인트 등 다양한 금융 자산의 통합조회 및 자산관리 서비스</p>
+                  <p class="tag-botton">
+                    <span>#재무 현황</span><span>#퇴직연금 현황</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="라이프월릿" style="background: url('images/service/20221204154523187098.jpg') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">라이프월릿</a>
+                    </div>
+                  </div>
+                  <p class="info">건강검진, 처방전, 유전자검사, 장내미생물검사 등 의료·건강 데이터 통합관리 및 맞춤 헬스케어 서비스</p>
+                  <p class="tag-botton">
+                    <span>#진료 기록</span><span>#투약 이력</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="스칼라뱅크" style="background: url('images/service/20221206101808944544.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">스칼라뱅크</a>
+                    </div>
+                  </div>
+                  <p class="info">본인정보 활용동의를 통해 국회도서관으로부터 수집된 학술연구자 정보를 활용하여 연구자를 위한 전문서비스 제공</p>
+                  <p class="tag-botton">
+                    <span>#연구실적현황</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="캐롯" style="background: url('images/service/20221204152128833599.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">캐롯</a>
+                    </div>
+                  </div>
+                  <p class="info">개인사업자를 위한 마이데이터 서비스</p>
+                  <p class="tag-botton">
+                    <span>#거래처 관리</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="캐시노트" style="background: url('images/service//20221206094728774022.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#">캐시노트</a>
+                    </div>
+                  </div>
+                  <p class="info">챗봇·앱 기반으로 장부, 금융, 식자재 구매, 사업자 전용 커뮤니티 등 영업 관리 서비스 제공</p>
+                  <p class="tag-botton">
+                    <span>#대출상품 추천</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <a href="#"><img src="images/cont/app_img.png" alt="에너지 마이데이터" style="background: url('images/service//20221206101344352987.png') no-repeat 50% 50% / cover;"></a>
+                    <div class="tt">
+                      <a href="#" class="ment">에너지 마이데이터</a>
+                    </div>
+                  </div>
+                  <p class="info">에너지 데이터를 수집하여 분석결과를 사용자에게 제공하여 에너지를 절약할 수 있도록 지원</p>
+                  <p class="tag-botton">
+                    <span>#실시간 소비량</span>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="p-pagination3"></div>
+              <div class="p-pagination3_n"></div>
+              <div class="p-b-prev"></div>
+              <div class="p-b-next"></div>
+              <div class="control">
+                <button class="play"></button>
+                <!-- <button class="stop"></button> -->
+              </div>
+
+            </div>
+          </div>
+          </div>
+
+        </div> 
+      </div>
+
+      <div class="wrap3">
+        <div class="notice">
+          <div class="notice-top">
+            <h2><span>새소식</span>&nbsp;알고가세요</h2>
+            <div class="more">
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="n-tap">
+            <ul class="n-top-line">
+              <li class="on"><a href="#" class="c">공지사항</a></li>
+              <li><a href="#">지원사업 안내</a></li>
+              <li><a href="#">마이데이터 소식</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul> 
+          </div>
+
+          <div class="notice-b">
+             <ul>
+              <li class="info on">
+                <ul>
+                  <li><a href="#">2023년 마이데이터 국민참여단 모집(~11/7 17시까지)
+                    <b class="n">n</b>
+                    <span>2023-10-17</span>
+                    </a></li>
+                  <li><a href="#">마이데이터 원스톱 통합지원 웹페이지 중단 안내('23.10.11(수) 18:30 ~ 19:30)
+                    <b class="n">n</b>
+                    <span>2023-10-11</span>
+                    </a></li>
+                  <li><a href="#">마이데이터 원스톱 통합지원 웹페이지 중단 안내('23.09.04(월) 18:00 ~ 19:00)
+                    <span>2023-09-01</span></a></li>
+                  <li><a href="#">2023 마이데이터 아이디어 공모전 최종 결과 발표
+                    <span>2023-08-24</span></a></li>
+                </ul>
+              </li>
+              <li class="info">
+                <ul>
+                  <li><a href="#">[마감] 2023년 마이데이터 비즈니스 교육(건강의료 분야) 지원 안내
+                    <span>2023-09-25</span>
+                    </a></li>
+                  <li><a href="#">[2차 9.25 접수예정/1차 마감] 2023 마이데이터 비즈니스 교육(생활소비 분야) 지원 안내
+                    <span>2023-06-12</span>
+                    </a></li>
+                  <li><a href="#">[마감] 2023 마이데이터 컨설팅 지원 안내
+                    <span>2023-06-12</span></a></li>
+                  <li><a href="#">2023년도 마이데이터 생태계 활성화를 위한 종합기반 조성사업 공고문
+                    <span>2023-02-28</span></a></li>
+                </ul>
+              </li>
+              <li class="info">
+                <ul>
+                  <li><a href="#">2022년 마이데이터 사례집 (컨설팅・공모전・교육)
+                    <span>2023-09-20</span>
+                    </a></li>
+                  <li><a href="#">2023 마이데이터 비즈니스 교육(생활소비 분야), 열정의 현장 속으로!
+                    <span>2023-08-31</span>
+                    </a></li>
+                  <li><a href="#">2023 마이데이터 아이디어 공모전 Value-Up 이벤트 당첨자 발표
+                    <span>2023-08-24</span></a></li>
+                  <li><a href="#">[마감] 2023 마이데이터 상시자문 이벤트 진행!
+                    <span>2023-07-18</span></a></li>
+                </ul>
+              </li>
+              <li class="info">
+                <ul>
+                  <li><a href="#">마이데이터 원스톱 통합지원 서비스란?</a></li>
+                  <li><a href="#">마이데이터란?</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="mbti">
+          <a href="#"></a>
+        </div>
+      </div>
+    </div>
+ 
+
+  </main>
+
+
+
+  <footer>
+    <div class="footer">
+      <div class="f-site">
+        <ul>
+          <li><a href="#" class="color">개인정보처리방침</a></li>
+          <li><a href="#">포털 소개</a></li>
+          <li><a href="#">사업안내</a></li>
+          <li><a href="#">전문가/기업</a></li>
+        </ul>
+      </div>
+      <div class="f-info">
+        <div class="add">
+          <p>서울특별시 중구 세종대로9길 42 부영빌딩 7, 8, 11층 한국데이터산업진흥원 (우 04513)</p>
+          <div class="info">
+            <ul>
+              <li>원장 : 윤혜정</li>
+              <li>대표전화 : 02-3708-5300</li>
+              <li>팩스 : 02-318-5040</li>
+              <li>mydata@kdata.or.kr</li>
+            </ul>
+          </div>
+          <p>Copyright &copy; KOREA Data Agency. All rights reserved.</p>
+        </div>
+
+        <div class="sns">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+
+        <div class="web-logo">
+          <a href="#"></a>
+        </div>
+
+      </div>
+      
+    
+    </div>
+
+  </footer>
+
+
+  <script>
+    new Swiper(".banner1", {
+      autoplay: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        },
+      navigation: {
+        nextEl: ".p-next",
+        prevEl: ".p-prev",
+      },
+    });
+
+
+    new Swiper(".banner2", {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,// 슬라이드 멈추고나서 다시 재생되게 
+    },
+
+    loop: true, 
+    loopedSlides: 3,   // 센터슬라이드 안될때 슬라이드끼리 묶어서 이어주는
+    loopAdditionalSlides: 1, //슬라이드 반복 시 마지막 슬라이드에서 다음 슬라이드가 보여지지 않는 현상 수정
+    centeredSlides: true,
+    slidesPerView: 7,
+    // spaceBetween: 100,    // 슬라이드 사이 여백
+    /* 전체적인 슬라이드의 왼쪽에 20px 공백을 준다. */
+    // slidesOffsetBefore: 20,
+    /* 전체적인 슬라이드의 오른쪽에 20px 공백을 준다. */
+    // slidesOffsetAfter: 20,
+
+    pagination: {
+      el: '.p-pagination2',
+      type: 'fraction',
+      formatFractionCurrent: function (number) {
+          // return '0' + number;
+          return + number;
+      }
+    },
+    navigation: {
+      nextEl: ".p-next2",
+      prevEl: ".p-prev2",
+    }
+    
+  });
+    
+  </script>
+</body>
+
+</html>
